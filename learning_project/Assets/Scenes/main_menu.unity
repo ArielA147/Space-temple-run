@@ -599,7 +599,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 0fb6bdb80a937fa4aa926fdbe630a511, type: 3}
+  m_Texture: {fileID: 2800000, guid: 62f80bd33891e4647b4f3c7551918d10, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1392,8 +1392,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 10.9, y: 0}
+  m_SizeDelta: {x: 21.8, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1034079601
 MeshRenderer:
@@ -1451,7 +1451,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d20730436a989e145a6264d77a2e9166, type: 3}
+  m_Texture: {fileID: 2800000, guid: 88063436926c29747afe9e12aad355b5, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2798,7 +2798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: d20730436a989e145a6264d77a2e9166, type: 3}
+  m_Texture: {fileID: 2800000, guid: f4355fec5990444458014d7c26379990, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
