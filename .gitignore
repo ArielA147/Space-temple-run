@@ -27,9 +27,6 @@ Packages/manifest.json
 XRSettings.asset
 Logs/Packages-Update.log
 
-#Ignore all .meta file
- *.meta
-
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
