@@ -35,11 +35,6 @@ public class LevelGenerator : MonoBehaviour
         nextCreationDot = new Vector3(1025, 0, 0);
         player = GameObject.Find("player");
         levelIndex = 1;
-        coin = GameObject.Find("coin_manager");
-        bomb = GameObject.Find("bomb_manager");
-        clock = GameObject.Find("clock_manager");
-        enemy = GameObject.Find("enemy_manager");
-        arrow = GameObject.Find("arrow_manager");
         floor = GameObject.Find("floor_manager");
         wall = GameObject.Find("wall_manager");
         wallLight = GameObject.Find("wall_light_manager");

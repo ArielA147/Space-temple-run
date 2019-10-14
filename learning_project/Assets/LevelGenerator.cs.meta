@@ -3,7 +3,17 @@ guid: a20704741cc84c34a919cc1d4637a7eb
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player: {instanceID: 0}
+  - coin: {instanceID: 0}
+  - bomb: {instanceID: 0}
+  - clock: {instanceID: 0}
+  - enemy: {instanceID: 0}
+  - arrow: {fileID: 4776663713058254879, guid: 68b7f2a5ab985994788ddc721c9fd65f, type: 3}
+  - floor: {instanceID: 0}
+  - wall: {instanceID: 0}
+  - wallLight: {instanceID: 0}
+  - bg: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
