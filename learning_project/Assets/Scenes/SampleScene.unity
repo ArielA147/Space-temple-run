@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4430038, g: 0.49219674, b: 0.57192576, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300452, g: 0.4921977, b: 0.5719268, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -22693,9 +22693,10 @@ GameObject:
   - component: {fileID: 1487051968}
   - component: {fileID: 1487051967}
   - component: {fileID: 1487051966}
+  - component: {fileID: 1487051969}
   m_Layer: 0
   m_Name: backgroud_sound
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22710,7 +22711,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ca7a9e4a3d02a46a7ac93ffc34907652, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2b94ffbdab9c71c458ca67d176095aef, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
@@ -22823,6 +22824,18 @@ Transform:
   m_Father: {fileID: 2078310710}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1487051969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487051965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73aefaa603c3c474ba58c9d27211c127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1487972794 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1244024372759254, guid: 05025ad8d71ef4d4ba078f18cd08bcd8,
@@ -28105,7 +28118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0203f6560a9ef44aadde5c0516cb48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CAMERA_TO_STATS_DELTA_LOCATION: {x: 23.5, y: -74.5, z: 10}
   player: {fileID: 0}
   stats: {fileID: 0}
   deltaPositionVector: {x: 0, y: 0, z: 0}
