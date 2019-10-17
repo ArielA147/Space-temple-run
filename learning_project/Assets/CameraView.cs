@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraView : MonoBehaviour
 {
     // consts //
-    public Vector3 CAMERA_TO_STATS_DELTA_LOCATION = new Vector3(25.5f, -75.5f, 10);
+    private Vector3 CAMERA_TO_STATS_DELTA_LOCATION = new Vector3(8.0f, 10.0f, 10.0f);
     // end - consts //
 
     // members //
@@ -20,20 +20,14 @@ public class CameraView : MonoBehaviour
     {
         player = GameObject.Find("player");
         stats = GameObject.Find("stats");
-        offset = new Vector3(-88, 17, 0);
-        deltaPositionVector = new Vector3(-40.5f, 86.5f, 0);
+        deltaPositionVector = new Vector3(-95.5f, 17.5f, 0);
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        gameObject.transform.position = player.transform.position + deltaPositionVector;
-        stats.transform.position = gameObject.transform.position + CAMERA_TO_STATS_DELTA_LOCATION;
-    }
-
-    // Taken from: https://learn.unity.com/tutorial/movement-basics?projectId=5c514956edbc2a002069467c&signup=true#
-    private void LateUpdate()
-	{
-        transform.position = player.transform.position + offset;
+        
+        transform.position = player.transform.position + deltaPositionVector;
+        stats.transform.position = player.transform.position + this.CAMERA_TO_STATS_DELTA_LOCATION;
     }
 }
