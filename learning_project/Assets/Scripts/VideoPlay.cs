@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class VideoPlay : MonoBehaviour
 {
     public UnityEngine.Video.VideoClip videoClip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,16 +38,16 @@ public class VideoPlay : MonoBehaviour
                 vp.Play();
             }
         }
-
-        if(Input.GetKeyDown(KeyCode.Escape)){
+        
+    if(Input.GetKeyDown(KeyCode.Escape) ){
             SceneManager.LoadScene("main_menu");
         }
 
-        if(Input.GetKeyDown(KeyCode.LeftArrow)){
+    if(Input.GetKeyDown(KeyCode.LeftArrow)){
             SceneManager.LoadScene("DisplayingCharacters");
         }
 
-        if(Input.GetKeyDown(KeyCode.RightArrow)){
+    if(Input.GetKeyDown(KeyCode.RightArrow)){
             SceneManager.LoadScene("PrisonFlee");
         }
     }
