@@ -362,7 +362,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 16.923328
+  field of view: 8.223208
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -428,7 +428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.5, y: 51.3}
+  m_AnchoredPosition: {x: 2.5, y: 59.8}
   m_SizeDelta: {x: 294, y: 42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236425127
@@ -698,8 +698,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 104.1, y: -60}
-  m_SizeDelta: {x: 96.21, y: 30}
+  m_AnchoredPosition: {x: 118.8, y: -63}
+  m_SizeDelta: {x: 96, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1572692194
 MonoBehaviour:
@@ -851,18 +851,22 @@ MonoBehaviour:
       in the mission. '
     - Your mission is to navigate the spacecraft so that the Guardians of the Galaxy
       escape as far as possible from prison.
-    - 'In order to make the trip you should be advised that: + Collecting clocks will
-      increase the time remaining for your trip.'
-    - + Each Power batteries charge and increase the power of the spacecraft.
-    - '- The prison guards are after you, and they have sent spaceships throughout
-      the road to catch you. '
-    - Each collision with their spaceships will drop the amount of power your spacecraft
-      has left.
-    - '- Hitting a Bomb will shorten the remaining escape time.'
+    - 'In order to make the trip you should be advised the next things :'
+    - '(+) Collecting clocks will increase the time remaining for your trip.
+
+      (+) Each Power batteries charge and increase the power of the spacecraft.'
+    - 'The prison guards are after you, and they have sent spaceships throughout the
+      road to catch you. '
+    - (-) Each collision with their spaceships will drop the amount of power your
+      spacecraft has left.
+    - (-) Hitting a Bomb will shorten the remaining escape time.
     - "Remember \u2013 your goal is to assist the spacecraft reach the furthest."
     - To control the directions of the spacecraft, use the side keys <- ->
     - The game will end when you run out of power or run out of time.
-    - Think you're up for the challenge ?
+    - "Think you're up for the \n\tchallenge ?"
+    - 
+    - 
+    - 
 --- !u!114 &1657177598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1064,8 +1068,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.49, y: -15.4}
-  m_SizeDelta: {x: 290.7, y: 113.1}
+  m_AnchoredPosition: {x: 3.9, y: -17.97}
+  m_SizeDelta: {x: 306, y: 136}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804962901
 MonoBehaviour:
@@ -1092,7 +1096,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1146,8 +1150,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20.1, y: -24.7}
-  m_SizeDelta: {x: 320.8, y: 155}
+  m_AnchoredPosition: {x: -20.1, y: -15.51}
+  m_SizeDelta: {x: 337.95, y: 168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1919835258
 MonoBehaviour:

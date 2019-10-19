@@ -25,6 +25,7 @@ public class VideoPlay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
      if (Input.GetButtonDown("Jump"))
         {
             var vp = GetComponent<UnityEngine.Video.VideoPlayer>();
@@ -37,10 +38,11 @@ public class VideoPlay : MonoBehaviour
             {
                 vp.Play();
             }
+
         }
         
     if(Input.GetKeyDown(KeyCode.Escape) ){
-            SceneManager.LoadScene("main_menu");
+            SceneManager.LoadScene("Story");
         }
 
     if(Input.GetKeyDown(KeyCode.LeftArrow)){
@@ -48,7 +50,8 @@ public class VideoPlay : MonoBehaviour
         }
 
     if(Input.GetKeyDown(KeyCode.RightArrow)){
-            SceneManager.LoadScene("PrisonFlee");
+            //SceneManager.LoadScene("PrisonFlee");
+            SceneManager.LoadScene("Story");
         }
     }
 }

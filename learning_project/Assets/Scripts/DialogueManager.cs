@@ -30,11 +30,12 @@ public class DialogueManager : MonoBehaviour
 
         DisplayNextSentence();// display sentence
     }
+
     // will return the first sentence (the top in the current queue) in the sentences queue
     public void DisplayNextSentence(){
         // check if there are any sentences in the queue
         if(sentences.Count==0 ) // we got to the end of the queue
-        {
+        {        
             EndDialogue();
             return;
         }
@@ -50,11 +51,13 @@ public class DialogueManager : MonoBehaviour
         // now we will pass over every letter individual 
         foreach(char letter in sentence.ToCharArray()){
             dialogueText.text+=letter; // this will apped the letter at the end of the string
-            yield return null ; // waiting a small amout of time (a single frame) after every letter
+            yield return new WaitForSeconds((float)0.039);
+            //yield return null ; // waiting a small amout of time (a single frame) after every letter
         }
     }
 
     void EndDialogue(){
-        animator.SetBool ("IsOpen", false); // will close the dialogue window
+        UnityEngine.SceneManagement.SceneManager.LoadScene("main_menu");
+        // animator.SetBool ("IsOpen", false); // will close the dialogue window
     }
 }
