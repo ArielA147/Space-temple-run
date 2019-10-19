@@ -428,8 +428,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.5, y: 59.8}
-  m_SizeDelta: {x: 294, y: 42}
+  m_AnchoredPosition: {x: 8.3, y: 72}
+  m_SizeDelta: {x: 366.4, y: 42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236425127
 MonoBehaviour:
@@ -451,7 +451,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8dedda4c83768b64f96593842e2c76b7, type: 3}
-    m_FontSize: 22
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -698,7 +698,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 118.8, y: -63}
+  m_AnchoredPosition: {x: 184.7, y: -74}
   m_SizeDelta: {x: 96, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1572692194
@@ -828,7 +828,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25.16, y: 95.22}
+  m_AnchoredPosition: {x: -25.16, y: 106.2}
   m_SizeDelta: {x: 191.21, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657177597
@@ -861,11 +861,9 @@ MonoBehaviour:
       spacecraft has left.
     - (-) Hitting a Bomb will shorten the remaining escape time.
     - "Remember \u2013 your goal is to assist the spacecraft reach the furthest."
-    - To control the directions of the spacecraft, use the side keys <- ->
+    - "To control the directions of the spacecraft, use the side keys\n\t <- ->"
     - The game will end when you run out of power or run out of time.
-    - "Think you're up for the \n\tchallenge ?"
-    - 
-    - 
+    - Think you're up for the challenge?
     - 
 --- !u!114 &1657177598
 MonoBehaviour:
@@ -1014,10 +1012,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 53bd2da7b9ef39c4d9448fad5700e900, type: 3}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1068,8 +1066,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.9, y: -17.97}
-  m_SizeDelta: {x: 306, y: 136}
+  m_AnchoredPosition: {x: 17.59, y: -18.3}
+  m_SizeDelta: {x: 421, y: 146.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1804962901
 MonoBehaviour:
@@ -1091,7 +1089,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8dedda4c83768b64f96593842e2c76b7, type: 3}
-    m_FontSize: 16
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1151,7 +1149,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -20.1, y: -15.51}
-  m_SizeDelta: {x: 337.95, y: 168}
+  m_SizeDelta: {x: 494.8, y: 194.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1919835258
 MonoBehaviour:
