@@ -321,9 +321,10 @@ GameObject:
   m_Component:
   - component: {fileID: 662827119}
   - component: {fileID: 662827120}
+  - component: {fileID: 662827121}
   m_Layer: 0
-  m_Name: music_manager
-  m_TagString: Untagged
+  m_Name: MusicManager
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -438,6 +439,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &662827121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662827118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6be431f1e5eec4799e7055cb8c34db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1162547718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1572,7 +1585,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20.1, y: -15.51}
+  m_AnchoredPosition: {x: -20.1, y: -27}
   m_SizeDelta: {x: 494.8, y: 194.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1919835258

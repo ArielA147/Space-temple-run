@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/PrisonFlee.unity
+    guid: d52fd83a8a942484a8300523c3ae7eea
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: abb0a5bffe1483b47bb570523b06133a
+  - enabled: 1
     path: Assets/Scenes/main_menu.unity
     guid: c23f58c4d14d4ad448128e99d205242a
   - enabled: 1
@@ -14,13 +20,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: cc6ad515c2a869f41a65aff34e5d2005
-  - enabled: 1
-    path: Assets/Scenes/Story.unity
-    guid: abb0a5bffe1483b47bb570523b06133a
-  - enabled: 1
-    path: Assets/Scenes/PrisonFlee.unity
-    guid: d52fd83a8a942484a8300523c3ae7eea
-  - enabled: 1
-    path: Assets/Scenes/DisplayingCharacters.unity
-    guid: dbc463610ce2479498796c0c616a4118
   m_configObjects: {}

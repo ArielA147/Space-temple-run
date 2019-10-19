@@ -18,7 +18,7 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
     public void StartDialogue(Dialogue dialogue){
-        animator.SetBool ("IsOpen", true); // will open the dialogue window
+        animator.SetBool ("Is_Open", true); // will open the dialogue window
         nameText.text = dialogue.name;
 
         sentences.Clear(); // clearing the sentences from previous conversation
