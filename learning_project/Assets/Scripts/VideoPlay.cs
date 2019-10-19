@@ -45,12 +45,11 @@ public class VideoPlay : MonoBehaviour
             SceneManager.LoadScene("Story");
         }
 
-    if(Input.GetKeyDown(KeyCode.LeftArrow)){
-            SceneManager.LoadScene("DisplayingCharacters");
-        }
+    // if(Input.GetKeyDown(KeyCode.LeftArrow)){
+    //         SceneManager.LoadScene("DisplayingCharacters");
+    //     }
 
     if(Input.GetKeyDown(KeyCode.RightArrow)){
-            //SceneManager.LoadScene("PrisonFlee");
             SceneManager.LoadScene("Story");
         }
     }
