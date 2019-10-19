@@ -848,7 +848,7 @@ MonoBehaviour:
     sentences:
     - A group of Guardians of the Galaxy are fleeing from prison.
     - 'The galaxy guard''s spacecraft doesn''t have much energy nor time to succeed
-      in the mission. '
+      the mission. '
     - Your mission is to navigate the spacecraft so that the Guardians of the Galaxy
       escape as far as possible from prison.
     - 'In order to make the trip you should be advised the next things :'
@@ -861,7 +861,6 @@ MonoBehaviour:
       spacecraft has left.
     - (-) Hitting a Bomb will shorten the remaining escape time.
     - "Remember \u2013 your goal is to assist the spacecraft reach the furthest."
-    - "To control the directions of the spacecraft, use the side keys\n\t <- ->"
     - The game will end when you run out of power or run out of time.
     - Think you're up for the challenge?
 --- !u!114 &1657177598
