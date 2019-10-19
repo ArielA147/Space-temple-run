@@ -864,7 +864,6 @@ MonoBehaviour:
     - "To control the directions of the spacecraft, use the side keys\n\t <- ->"
     - The game will end when you run out of power or run out of time.
     - Think you're up for the challenge?
-    - 
 --- !u!114 &1657177598
 MonoBehaviour:
   m_ObjectHideFlags: 0
