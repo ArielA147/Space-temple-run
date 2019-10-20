@@ -692,7 +692,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -132}
-  m_SizeDelta: {x: 350, y: 80}
+  m_SizeDelta: {x: 228, y: 66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523758564
 MonoBehaviour:
@@ -2461,8 +2461,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -11}
-  m_SizeDelta: {x: 440, y: 200}
+  m_AnchoredPosition: {x: 27.38, y: -18.13}
+  m_SizeDelta: {x: 440, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966807241
 MonoBehaviour:
@@ -2477,17 +2477,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
+  m_Color: {r: 0.6117647, g: 0.9254902, b: 0.18485224, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_Font: {fileID: 12800000, guid: 53bd2da7b9ef39c4d9448fad5700e900, type: 3}
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 60
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -2495,8 +2495,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Game created by: Ariel Alexi, Nadav Spitzer, Teddy Lazebnik. \n\nThanks
-    for all the people made the free resources."
+  m_Text: "Game created by: \nAriel Alexi, \nNadav Spitzer, \nTeddy Lazebnik. \n\nThanks
+    for all the people \nmade the free resources."
 --- !u!222 &1966807242
 CanvasRenderer:
   m_ObjectHideFlags: 0
