@@ -118,6 +118,11 @@ public class Player : MonoBehaviour
             rb.velocity = new Vector3(rb.velocity.x - 0.1f, rb.velocity.y, rb.velocity.z + moveSpeed * Time.deltaTime);
         }
 
+        if (transform.position.z > 20 || transform.position.z < -20)
+        {
+            RestartGame(); 
+        }
+
         /* manage player actions' properties */ 
 
         // make sure the player is not too fast
