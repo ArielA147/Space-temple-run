@@ -50,6 +50,12 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
         // now we will pass over every letter individual 
         foreach(char letter in sentence.ToCharArray()){
+            if(Input.GetKey(KeyCode.Mouse0)){
+                dialogueText.text=sentence;
+                // break;
+                yield return new WaitForSeconds((float)0.039);
+                break;
+            }
             dialogueText.text+=letter; // this will apped the letter at the end of the string
             yield return new WaitForSeconds((float)0.039);
             //yield return null ; // waiting a small amout of time (a single frame) after every letter

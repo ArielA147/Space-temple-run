@@ -851,8 +851,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 523758569}
-  hoverFX: {fileID: 8300000, guid: 8904096a3646d43fd88ea2a4d254fa10, type: 3}
-  clickFX: {fileID: 8300000, guid: cfebc60f3058742f1b301721e2dfe54c, type: 3}
+  hoverFX: {fileID: 8300000, guid: ada3b441b480da04c85e7215ae27fbd7, type: 3}
+  clickFX: {fileID: 8300000, guid: ada3b441b480da04c85e7215ae27fbd7, type: 3}
 --- !u!82 &523758569
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1138,8 +1138,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 659294404}
-  hoverFX: {fileID: 8300000, guid: 8904096a3646d43fd88ea2a4d254fa10, type: 3}
-  clickFX: {fileID: 8300000, guid: cfebc60f3058742f1b301721e2dfe54c, type: 3}
+  hoverFX: {fileID: 8300000, guid: ada3b441b480da04c85e7215ae27fbd7, type: 3}
+  clickFX: {fileID: 8300000, guid: ada3b441b480da04c85e7215ae27fbd7, type: 3}
 --- !u!82 &659294404
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1637,8 +1637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1227834981}
-  hoverFX: {fileID: 8300000, guid: 8904096a3646d43fd88ea2a4d254fa10, type: 3}
-  clickFX: {fileID: 8300000, guid: cfebc60f3058742f1b301721e2dfe54c, type: 3}
+  hoverFX: {fileID: 8300000, guid: ada3b441b480da04c85e7215ae27fbd7, type: 3}
+  clickFX: {fileID: 8300000, guid: ada3b441b480da04c85e7215ae27fbd7, type: 3}
 --- !u!82 &1227834981
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2096,8 +2096,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1431625995}
-  hoverFX: {fileID: 8300000, guid: 8904096a3646d43fd88ea2a4d254fa10, type: 3}
-  clickFX: {fileID: 8300000, guid: cfebc60f3058742f1b301721e2dfe54c, type: 3}
+  hoverFX: {fileID: 8300000, guid: ada3b441b480da04c85e7215ae27fbd7, type: 3}
+  clickFX: {fileID: 8300000, guid: ada3b441b480da04c85e7215ae27fbd7, type: 3}
 --- !u!82 &1431625995
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2461,7 +2461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.38, y: -18.13}
+  m_AnchoredPosition: {x: 27.38, y: -24}
   m_SizeDelta: {x: 440, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966807241
@@ -2477,14 +2477,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6117647, g: 0.9254902, b: 0.18485224, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 53bd2da7b9ef39c4d9448fad5700e900, type: 3}
-    m_FontSize: 26
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2496,7 +2496,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Game created by: \nAriel Alexi, \nNadav Spitzer, \nTeddy Lazebnik. \n\nThanks
-    for all the people \nmade the free resources."
+    for all the people who\nmade the free resources."
 --- !u!222 &1966807242
 CanvasRenderer:
   m_ObjectHideFlags: 0
