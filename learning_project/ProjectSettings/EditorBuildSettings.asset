@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PrisonFlee.unity
-    guid: d52fd83a8a942484a8300523c3ae7eea
-  - enabled: 1
     path: Assets/Scenes/Story.unity
     guid: abb0a5bffe1483b47bb570523b06133a
   - enabled: 1
